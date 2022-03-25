@@ -1,0 +1,12 @@
+{
+    "name": "web-server",
+    "version": "0.1.0",
+    "description": "Web server for SIT 737",
+    "dependencies": {
+        "express": "*",
+        "log": "1.4.0",
+        "body-parser": "*"
+    },
+    "author": "Alessio Bonti",
+    "license": "MIT"
+}
