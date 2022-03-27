@@ -41,3 +41,31 @@ logger.info("Server Started");
 // logger.warn("warning information");
 // logger.info("info information");
 // logger.debug("debug information");
+
+
+var calculator = function (num1, num2, operator) {
+    logger.info("Inside calculator function");
+    switch (operator) {
+        case "+":
+            var result = num1 + num2;
+            logger.info("Calculating....");
+            return result;
+        case "-":
+            var result = num1 - num2;
+            return result;
+        case "*":
+            var result = num1 * num2;
+            return result;
+        case "/":
+            var result = num1 / num2;
+            return result;
+        default:
+            console.log("Invalid operator");
+    }
+
+}
+
+logger.info("Function call");
+var result = calculator(2, 3, "*");
+logger.info("Answer Returned");
+console.log("Calculated answer is " +result);
