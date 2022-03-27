@@ -3,9 +3,10 @@
     "version": "0.1.0",
     "description": "Web server for SIT 737",
     "dependencies": {
+        "body-parser": "*",
         "express": "*",
         "log": "1.4.0",
-        "body-parser": "*"
+        "winston": "^3.6.0"
     },
     "author": "Alessio Bonti",
     "license": "MIT"
